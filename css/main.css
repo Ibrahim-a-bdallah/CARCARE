@@ -11,10 +11,21 @@
 body{
     background-color: #000000 !important;
 }
-.bg-s{
-    background-color: var(--secation-color);
+.m-color{
+    color: var(--main-color);
 }
-
+.y-color{
+    color: var(--yellow-color) !important;
+}
+.b-card-color{
+    background-color: var(--card-color) !important;
+}
+.bg-c-s{
+    background-color: var(--secation-color) !important;
+}
+.caption{
+    color: var(--main-color);
+}
 .main-btn{
  background-color: var(--yellow-color) !important;
 }
@@ -22,27 +33,10 @@ body{
     color: white !important;
 }
 /* end combainen  */
-.navbar-brand {
-    color: white !important;
-} 
-.navbar-brand span{
-    color: var(--main-color);
-} 
-
-.navbar-nav .nav-item .nav-link{
-    color: white ;
-}
+/* start nav  */
 .navbar-nav .nav-item .nav-link:is(.active,:hover,:focus){
     background-color: var(--main-color);
     border-radius: 6px;
-}
-.navbar-toggler{
-    background-color: white !important;
-}
-.search,
-.login {
-    color: white;
-    cursor: pointer;
 }
 .login {
     background-color: var(--main-color) !important;
@@ -50,11 +44,10 @@ body{
 .login:hover {
     background-color: #2fa7d9 !important;
 }
+/* end nav  */
 /* start landing-page */
 .landing-page{
     height: calc(100vb - 74px);
-    position: relative;
-    overflow: hidden;
 }
 .landing-page .img{
     margin-top: 6rem;
@@ -71,11 +64,6 @@ body{
 .landing-page .read-more{
     top: 90%;
 }
-
-.landing-page .read-more {
-    position: relative;
-}
-
 .landing-page .read-more::after{
     position: absolute;
     content: "";
@@ -95,14 +83,7 @@ body{
     top: -40px;
 }
 /* end landing-page */
-
 /* start services */
-.services{
-    background-color: var(--secation-color);
-}
-.services .main-head h2 span{
-    position: relative;
-}
 .services .main-head h2 span::before{
     position: absolute;
     content: "";
@@ -120,14 +101,7 @@ body{
     color: var(--yellow-color) !important;
 }
 /* end services */
-
 /* start who-are  */
- .caption{
-    color: var(--main-color);
-}
-.who-are .box .prins{
-    color: var(--yellow-color);
-}
 .who-are .box ul li::marker{
     color: var(--yellow-color);
     font-size: 25px;
@@ -136,11 +110,7 @@ body{
     background-color: var(--main-color) !important;
 }
 /* end who-are  */
-
 /* start offer  */
-.offer{
-    background-color: var(--secation-color);
-}
  .number{
     color: var(--main-color);
     font-size: 4rem;
@@ -151,47 +121,13 @@ body{
 .offer .box ul li::marker{
 font-size: 25px;
 }
-.offer .box:has(ul){
-    background-color: #1d1f22 !important;
-}
-
 /* end offer  */
 /* start details  */
-.details  {
-    position: relative;
+.details{
     top: -100px;
 }
-.details .box h2 {
-    color: var(--main-color);
-}
 /* end details  */
-
-/* start Features */
-.Features .box  {
-    background-color: #1d1f22 !important;
-    padding: 10px 20px !important;
-}
-/* end Features */
-
-/* start gallery */
-.gallery .card  {
-    background-color: var(--card-color) !important;
-
-}
-/* end gallery */
- /* start blog */
-.blog .card,
-.blog  .card .btn{
-background-color: var(--secation-color) !important;
-}
- /* end blog */
 /* start footer  */
-.footer ul svg{
-    color: var(--yellow-color);
-}
-.footer .icon .active {
-color: var(--main-color);
-}
 .footer .icon svg:hover {
     cursor: pointer;
 color: var(--main-color);
@@ -200,8 +136,3 @@ color: var(--main-color);
     font-size: 12px !important;
 }
  /* end footer */
- /* start copyRight  */
- .copy{
-    background-color: var(--secation-color);
- }
- /* end copyRight  */
