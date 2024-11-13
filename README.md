@@ -16,7 +16,7 @@ This project is a website dedicated to car care services. It aims to provide car
 
 ## Demo Screenshot
 
-![Website Screenshot]() <!-- Replace `link_to_screenshot.png` with an actual link to a screenshot of your site -->
+![Website Screenshot](img/Layer 10.png)
 
 ## Technologies Used
 
